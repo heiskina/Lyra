@@ -1,14 +1,6 @@
-version: "1.1.5"
+version: 1.1.5
 
-cache: true
-
-endpoints:
-  models:
-    default: ["gpt-4o", "clauss-3-5-sonnet", "gemini-1.5-pro"]
-
-audio:
+speech:
   tts:
     elevenlabs:
       apiKey: "${ELEVENLABS_API_KEY}"
-      voiceId: "YOUR_VOICE_ID"
-      modelId: "eleven_multilingual_v2"
