@@ -1,6 +1,10 @@
-version: 1.1.5
+version: 1.1.1
 
 speech:
   tts:
     elevenlabs:
       apiKey: "${ELEVENLABS_API_KEY}"
+      model: "eleven_multilingual_v2"
+  speechTab:
+    ttsEngine: "elevenlabs"
+
