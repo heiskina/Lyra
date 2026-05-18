@@ -20,6 +20,3 @@ speech:
       voices:
         - "4NejU5DwQjevnR6mh3mb"
 
-# Add this at the very bottom to stop the background agent loops
-rateLimiting:
-  cdTokenResetDuration: 60000
