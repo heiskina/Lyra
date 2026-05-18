@@ -18,4 +18,4 @@ speech:
       apiKey: "${ELEVENLABS_API_KEY}"
       model: "eleven_multilingual_v2"
       voices:
-        - "4NejU5DwQjevnR6mh3mb"
+        - "21m00Tcm4TlvDq8ikWAM"
