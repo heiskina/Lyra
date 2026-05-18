@@ -1,6 +1,16 @@
 speech:
+  speechTab:
+    conversationMode: true
+    advancedMode: false
+  textToSpeech:
+    engineTTS: "external"
+    voice: "alloy"
+    languageTTS: "en"
+    automaticPlayback: true
+    playbackRate: 1.0
+    cacheTTS: true
   tts:
     elevenlabs:
-      apiKey: '${TTS_API_KEY}'
+      apiKey: '${ELEVENLABS_API_KEY}'
       model: 'eleven_multilingual_v2'
-      voices: ['EST9Ui6982FZPSi7gCHi']
+      voices: ['EST9Ui6982FZPSi7gCHi'] # Optional: Add specific Voice IDs
