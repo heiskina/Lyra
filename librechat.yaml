@@ -1,10 +1,6 @@
 version: 1.1.0
 cache: true
 
-endpoints:
-  google:
-    apiKey: "${GEMINI_API_KEY}"
-
 speech:
   speechTab:
     conversationMode: true
@@ -21,4 +17,5 @@ speech:
       apiKey: "${TTS_API_KEY}"
       model: "eleven_multilingual_v2"
       voices: ["EST9Ui6982FZPSi7gCHi"]
+
 
