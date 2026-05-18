@@ -7,7 +7,7 @@ endpoints:
       apiKey: "${GEMINI_API_KEY}"
       baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
       models:
-        default: ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-1.5-flash", "gemini-1.5-pro"]
+          default: ["gld-gemini-2.5-flash", "gld-gemini-2.5-pro", "gld-1.5-flash", "gld-1.5-pro"]
         fetch: false
       titleConvo: true
       summarize: false
@@ -18,7 +18,7 @@ speech:
     advancedMode: false
   textToSpeech:
     engineTTS: "external"
-    voice: "alloy"
+    voice: "EST9Ui6982FZPSi7gCHi"
     languageTTS: "en"
     automaticPlayback: true
     playbackRate: 1.0
