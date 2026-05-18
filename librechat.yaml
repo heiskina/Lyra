@@ -16,7 +16,9 @@ speech:
   tts:
     elevenlabs:
       apiKey: "${ELEVENLABS_API_KEY}"
-      voiceId: "4NejU5DwQjevnR6mh3mb"
       model: "eleven_multilingual_v2"
-      stability: 0.5
-      similarity_boost: 0.75
+      voices:
+        - voiceId: "4NejU5DwQjevnR6mh3mb"
+          condition:
+            stability: 0.5
+            similarity_boost: 0.75
