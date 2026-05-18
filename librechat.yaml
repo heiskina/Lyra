@@ -1,10 +1,9 @@
 version: 1.1.0
 cache: true
 
-# This block forces LibreChat to display the default model choices in the UI
-endpoints:
-  google:
-    apiKey: "${GEMINI_API_KEY}"
+interface:
+  endpoints:
+    google: true
 
 speech:
   speechTab:
@@ -22,4 +21,3 @@ speech:
       apiKey: "${TTS_API_KEY}"
       model: "eleven_multilingual_v2"
       voices: ["EST9Ui6982FZPSi7gCHi"]
-
