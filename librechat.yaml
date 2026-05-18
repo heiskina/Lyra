@@ -12,14 +12,11 @@ endpoints:
       titleConvo: true
       summarize: false
 
-version: 1.0.5
 speech:
-  TTS: elevenlabs # Sets ElevenLabs as the provider
+  TTS: elevenlabs
   elevenlabs:
-    apiKey: d0ce800d19624a6832004cd30ea49f91d8960b7c245799fafb3a674311299be9 # Or reference an environment variable
-    voiceId: 4NejU5DwQjevnR6mh3mb (Lyra)
-    # Optional settings:
-    model: eleven_multilingual_v2 # Recommended model
-    stability: 0.5 # Default is 0.5, adjust for more emotion/less robotic tone
+    apiKey: "${ELEVENLABS_API_KEY}"
+    voiceId: 4NejU5DwQjevnR6mh3mb # Lyra
+    model: eleven_multilingual_v2
+    stability: 0.5
     similarity_boost: 0.75
-
